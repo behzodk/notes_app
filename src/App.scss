@@ -138,6 +138,13 @@ a {
 .notes-list::-webkit-scrollbar {
   display: none;
 }
+.no_item{
+  color: #ccc
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
 
 .notes-list-item {
   border-bottom: 1px solid  var(--color-border);
